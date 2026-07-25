@@ -1,8 +1,24 @@
 aid: crosby
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crosby.png
 name: Crosby
-description: 'Crosby is a company surfaced as a portfolio company of bain-capital-ventures, index-ventures,
-  lux-capital and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: 'Crosby is an agentic law firm that combines AI legal agents with barred attorneys to review
+  commercial contracts in about an hour. Built for sales teams, it accelerates contract negotiation and
+  time-to-signature with fixed, upfront per-document pricing, and integrates into existing workflows via
+  Slack, email, and CLM/CRM triggers. Beyond contract review it offers business-specific knowledge agents
+  and aggregated market data to improve negotiation outcomes. NYC-based, founded by Ryan Daniels and John
+  Sarihan, and backed by Bain Capital Ventures, Index Ventures, and Lux Capital. Crosby publishes no public
+  developer API, SDKs, or OpenAPI surface as of this profiling.'
 url: https://raw.githubusercontent.com/api-evangelist/crosby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Apps
+- Legal Tech
+- Contract Review
+- Legal
+- Artificial Intelligence
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crosby-domain-security.yml
 - type: Website
   url: https://crosby.ai/
+- type: Blog
+  url: https://crosby.ai/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
