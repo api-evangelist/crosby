@@ -19,3 +19,33 @@ tools_note: No tool list captured. This manifest records a PROBED, reachable end
   not perform. Run signals/audit_mcp_authorship.py --probe to enumerate tools and settle platform-vs-provider
   authorship. Do NOT derive a tool list from the OpenAPI and store it here -- that is a candidate manifest,
   and it belongs under an X-MCPServerCandidate pointer.
+rfc9728:
+  endpoint: https://mcp.crosby.ai/mcp
+  metadata_url: https://mcp.crosby.ai/.well-known/oauth-protected-resource/mcp
+  discovered_via: WWW-Authenticate resource_metadata on an anonymous POST initialize
+  fetched: '2026-09-25'
+  http_status: 200
+  content_type: application/json
+  document:
+    resource: https://mcp.crosby.ai/mcp
+    authorization_servers:
+    - https://mcp.crosby.ai/
+    scopes_supported:
+    - openid
+    - profile
+    - email
+    - offline_access
+    - mcp:identity:read
+    - mcp:database:read
+    - mcp:businesses:read
+    - mcp:businesses:write
+    - mcp:contract_review:read
+    - mcp:playbooks:read
+    - mcp:playbooks:write
+    - mcp:skills:read
+    - mcp:skills:write
+    - mcp:assignment:read
+    - mcp:evals:read
+    - mcp:evals:write
+    bearer_methods_supported:
+    - header
