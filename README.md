@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Crosby is a company surfaced as a portfolio company of bain-capital-ventures, index-ventures, lux-capital and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting the enrichment pipeline.
+Crosby is an agentic law firm that combines AI legal agents with barred attorneys to review commercial contracts in about an hour. Built for sales teams, it accelerates contract negotiation and time-to-signature with fixed, upfront per-document pricing, and integrates into existing workflows via Slack, email, and CLM/CRM triggers. Beyond contract review it offers business-specific knowledge agents and aggregated market data to improve negotiation outcomes. NYC-based, founded by Ryan Daniels and John Sarihan, and backed by Bain Capital Ventures, Index Ventures, and Lux Capital. Crosby publishes no public developer API, SDKs, or OpenAPI surface as of this profiling.
 
-Backed by: bain-capital-ventures, index-ventures, lux-capital — https://crosby.ai/
+**Areas:** Company · Ai Apps · Legal Tech · Contract Review · Legal · Artificial Intelligence · AI Agents
+
+## Crosby on APIs.io
+
+Everything profiled for Crosby is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crosby/](https://apis.io/providers/crosby/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [crosby](https://apis.io/servers/crosby/crosby/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Crosby Domain Security](https://apis.io/security/crosby/crosby-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://crosby.ai/)
+- [Blog](https://crosby.ai/blog)
+
+## API Evangelist rating
+
+**Kin Score 4.2** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/crosby/](https://apis.io/providers/crosby/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crosby: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crosby/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
